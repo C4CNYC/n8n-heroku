@@ -23,4 +23,4 @@ export DB_POSTGRESDB_USER=$N8N_DB_USER
 export DB_POSTGRESDB_PASSWORD=$N8N_DB_PASSWORD
 
 # kickstart nodemation
-n8n start --db-ssl-reject-unauthorized=false
+n8n
