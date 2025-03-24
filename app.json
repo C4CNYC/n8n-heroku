@@ -27,17 +27,10 @@
       "DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED": {
         "description": "SSL is required to connect to Postgres on Heroku",
         "value": "false"
-      }
-    },
-    "addons": [
-      {
-        "plan": "heroku-postgresql",
-        "options": {
-          "version": "14"
-        }
       },
-      {
-        "plan": "papertrail:choklad"
+      "DATABASE_URL": {
+        "description": "The database connection string",
+        "value": "postgres://postgres:postgres@localhost:5432/postgres"
       }
-    ]
+    }
   }
