@@ -25,5 +25,6 @@ export DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED=false
 export DB_POSTGRESDB_SSL_ENABLED=false
 export DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED=false
 
+printenv
 # kickstart nodemation
 n8n
